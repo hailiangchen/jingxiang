@@ -87,7 +87,7 @@ class Modelcontent extends CI_Model
 
         // qualification (make sure that
         // we're not allowing the site to update data that it shouldn't)
-        $qualificationArray = array('id','qq1','qq2','shishicai','beijingcaice','liuhecai','liuhecainum');
+        $qualificationArray = array('id','qq1','qq2','shishicai','beijingcaiche','liuhecai','liuhecainum');
         foreach ($qualificationArray as $qualifier) {
             if (isset($options[$qualifier]))
                 $this->db->set($qualifier, $options[$qualifier]);

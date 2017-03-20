@@ -82,8 +82,28 @@ class Manager extends CI_Controller
 
     public function  peizhi()
     {
+        $this->load->model("modelcontent");
+        $data['result']=$this->modelcontent->GetContent(array('id'=>1));
+
+        //var_dump($data["result"]);
+
         $this->load->view('header');
-        $this->load->view("manager_peizhi");
+        $this->load->view("manager_peizhi",$data);
     }
+
+    public  function savepeizhi()
+    {
+        $data["qq1"]=$this->input->post('qq1');
+        $data["qq2"]=$this->input->post('qq2');
+        $data["shishicai"]=$this->input->post('cqssc');
+        $data["beijingcaiche"]=$this->input->post('bjcc');
+        $data["liuhecai"]=$this->input->post('lhc');
+        $data["id"]=1;
+
+        $this->load->model("modelcontent");
+        $re=$this->modelcontent->UpdateContent($data);
+        echo json_encode(array("code"=>$re));
+    }
+
 
 }

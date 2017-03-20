@@ -21,7 +21,7 @@ table { border-collapse: collapse;}
 .main .width_1000 .icon ul li{width:165px; height:126px; float:left; text-align:center;}
 .main .width_1000 .icon ul li h1 a{font-size:14px; color:#000;}
 .main .width_1000 .icon ul li h1 img{width:70px; height:70px; margin:20px 0 12px 0;}
-.main .width_1000 .count{width:1010px; height:172px; background:url(images/bgcount.png) no-repeat center center; margin:0px auto 0 auto;}
+.main .width_1000 .count{width:1010px; height:172px; background:url(../images/bgcount.png) no-repeat center center; margin:0px auto 0 auto;}
 .main .width_1000 .count2{ background:none}
 .main .width_1000 .count .firstcount{width:316px; height:117px; float:left; padding-top:20px;}
 .main .width_1000 .count .firstcount .pic{width:88px; float:left; margin:14px 0 0 22px;}

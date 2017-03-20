@@ -86,7 +86,7 @@
                                 autourl2[7]='http://999.cyl268.com/Login#default_login';
                                 function butt2(){
                                     document.write("<form name=autog style='padding:0px; margin:0px;'>")
-                                    for(var t=1;t<4;t++)document.write("<input type=text class='ipt1' name=txt"+t+" size=15  value=测试中……>&nbsp;&nbsp;→&nbsp;&nbsp;<input type=text name=url"+t+" class='ipt2' size=30>&nbsp;&nbsp;<input type=button class='mybtn' value='' onclick=window.open(this.form.url"+t+".value)></br></br>")
+                                    for(var t=1;t<4;t++)document.write("<input type=text class='ipt1' name=txt"+t+" size=15  value=测试中……>&nbsp;&nbsp;→&nbsp;&nbsp;<input type=text name=url"+t+" class='ipt2' size=30>&nbsp;&nbsp;<input type=button class='btn-green' value='立即登录' onclick=window.open(this.form.url"+t+".value)></br></br>")
                                     document.write("</form>")
                                 }
                                 butt2()
