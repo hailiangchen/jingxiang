@@ -16,7 +16,7 @@
 </head>
 
 <body leftmargin="0" topmargin="0">
-<div class="header_top">欢迎您访问领头羊团队-六合彩全天计划表网页版 易记网址：<span id="ftcolor" class="changecolor0"><?php echo $result->weburl;?> </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+<div class="header_top">欢迎您访问新时代团队-六合彩全天计划表网页版 易记网址：<span id="ftcolor" class="changecolor0"><?php echo $result->weburl;?> </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
 <div class="main">
     <div class="width_1000">
         <div class="count">
@@ -63,11 +63,11 @@
 <div >
     <table style="margin: 0 auto;text-align: center" border="0" align="center" cellpadding="0" cellspacing="0">
         <tbody><tr style="height:62px;background-color: #efefef;width; text-align: center ">
-            <td><span style="font-weight: bold;padding: 0 20px;color:red;">QQ:<?php echo $result->qq1;?></span></td>
+            <td><span style="font-weight: bold;padding: 0 20px;color:red;">要更准计划加QQ:<?php echo $result->qq1;?></span></td>
             <td style="width: 120px;" ><a href="/plan/shishi">重庆时时彩</a></td>
             <td style="width: 120px;" ><a href="/plan/beijingsaiche">北京赛车</a></td>
             <td style="width: 120px;" ><a href="/plan/liuhecai">六合彩</a></td>
-            <td><span style="font-weight: bold;padding:0 20px;color:red;">QQ:<?php echo $result->qq2;?></span></td>
+            <td><span style="font-weight: bold;padding:0 20px;color:red;">要更准计划加QQ:<?php echo $result->qq2;?></span></td>
         </tr>
 
         </tbody>
@@ -76,7 +76,7 @@
 
 
 <div id="plandt"><div align="center" style="font-family:微软雅黑;line-height:26px">
-      <!--  <div style="color:blue;font-size:24px;line-height:35px"><b>领头羊团队分析师推荐<br><span style="color:red">062-064期 个位【01235】063期 等开</span></b></div>-->
+      <!--  <div style="color:blue;font-size:24px;line-height:35px"><b>新时代团队分析师推荐<br><span style="color:red">062-064期 个位【01235】063期 等开</span></b></div>-->
       	<span style="color:blue;font-size:16px">网页自动更新计划，用户无需手动刷新。网址：<?php echo $result->weburl;?></span><br>
         <span style="font-size:16px"><?php echo $result->desclhc;?></span><br><br>
         <span style="color:blue;font-size:30px;line-height:45px"><b>当天计划表</b></span>

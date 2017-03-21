@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bd395fd-b37c-441c-858e-56189cc745b8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/images/logo-sp.png" afterPath="$PROJECT_DIR$/style/images/logo-sp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Welcome.php" afterPath="$PROJECT_DIR$/application/controllers/Welcome.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/manager.php" afterPath="$PROJECT_DIR$/application/controllers/manager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/Modelcontent.php" afterPath="$PROJECT_DIR$/application/models/Modelcontent.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/caiche.php" afterPath="$PROJECT_DIR$/application/views/caiche.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/liuhecai.php" afterPath="$PROJECT_DIR$/application/views/liuhecai.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/manager_peizhi.php" afterPath="$PROJECT_DIR$/application/views/manager_peizhi.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/plan.php" afterPath="$PROJECT_DIR$/application/views/plan.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/welcome_message.php" afterPath="$PROJECT_DIR$/application/views/welcome_message.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/css1.css" afterPath="$PROJECT_DIR$/style/css/css1.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,12 +39,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plan.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="plan.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/plan.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2698">
-              <caret line="142" column="14" lean-forward="false" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="191">
+              <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+              <folding>
+                <element signature="e#1001#1007#0#HTML" expanded="true" />
+                <element signature="e#1007#1013#0#HTML" expanded="true" />
+                <element signature="e#1013#1019#0#HTML" expanded="true" />
+                <element signature="e#1019#1025#0#HTML" expanded="true" />
+                <element signature="e#1025#1031#0#HTML" expanded="true" />
+                <element signature="e#1031#1037#0#HTML" expanded="true" />
+                <element signature="e#1037#1043#0#HTML" expanded="true" />
+                <element signature="e#1043#1049#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,8 +61,8 @@
       <file leaf-file-name="caiche.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/caiche.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2356">
-              <caret line="124" column="136" lean-forward="false" selection-start-line="124" selection-start-column="136" selection-end-line="124" selection-end-column="136" />
+            <state relative-caret-position="590">
+              <caret line="61" column="82" lean-forward="false" selection-start-line="61" selection-start-column="82" selection-end-line="61" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -90,8 +91,8 @@
       <file leaf-file-name="liuhecai.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/liuhecai.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="755">
-              <caret line="126" column="0" lean-forward="true" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+            <state relative-caret-position="457">
+              <caret line="69" column="82" lean-forward="false" selection-start-line="69" selection-start-column="82" selection-end-line="69" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -124,11 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="css1.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="css1.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/css/css1.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="1208" lean-forward="false" selection-start-line="0" selection-start-column="1208" selection-end-line="0" selection-end-column="1208" />
+              <caret line="0" column="1139" lean-forward="false" selection-start-line="0" selection-start-column="1139" selection-end-line="0" selection-end-column="1139" />
               <folding />
             </state>
           </provider>
@@ -155,6 +156,8 @@
       <find>cqsscdt</find>
       <find>middlecount</find>
       <find>彩运来</find>
+      <find>logo</find>
+      <find>领头羊</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,12 +189,12 @@
         <option value="$PROJECT_DIR$/application/models/Modelcontent.php" />
         <option value="$PROJECT_DIR$/application/views/manager_peizhi.php" />
         <option value="$PROJECT_DIR$/application/controllers/manager.php" />
-        <option value="$PROJECT_DIR$/application/views/liuhecai.php" />
-        <option value="$PROJECT_DIR$/application/views/caiche.php" />
-        <option value="$PROJECT_DIR$/application/views/plan.php" />
         <option value="$PROJECT_DIR$/application/controllers/Welcome.php" />
         <option value="$PROJECT_DIR$/application/views/welcome_message.php" />
         <option value="$PROJECT_DIR$/style/css/css1.css" />
+        <option value="$PROJECT_DIR$/application/views/liuhecai.php" />
+        <option value="$PROJECT_DIR$/application/views/caiche.php" />
+        <option value="$PROJECT_DIR$/application/views/plan.php" />
       </list>
     </option>
   </component>
@@ -431,15 +434,15 @@
       <workItem from="1489931013274" duration="7147000" />
       <workItem from="1490015033786" duration="11154000" />
       <workItem from="1490058005616" duration="22073000" />
-      <workItem from="1490087824826" duration="2544000" />
+      <workItem from="1490087824826" duration="3145000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72183000" />
+    <option name="totallyTimeSpent" value="72784000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14895834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -733,22 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/caiche.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2356">
-          <caret line="124" column="136" lean-forward="false" selection-start-line="124" selection-start-column="136" selection-end-line="124" selection-end-column="136" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/plan.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2698">
-          <caret line="142" column="14" lean-forward="false" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -761,14 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="755">
           <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/liuhecai.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="126" column="0" lean-forward="true" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -809,8 +788,41 @@
     <entry file="file://$PROJECT_DIR$/style/css/css1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="1208" lean-forward="false" selection-start-line="0" selection-start-column="1208" selection-end-line="0" selection-end-column="1208" />
+          <caret line="0" column="1139" lean-forward="false" selection-start-line="0" selection-start-column="1139" selection-end-line="0" selection-end-column="1139" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/liuhecai.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="69" column="82" lean-forward="false" selection-start-line="69" selection-start-column="82" selection-end-line="69" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/caiche.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="61" column="82" lean-forward="false" selection-start-line="61" selection-start-column="82" selection-end-line="61" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/plan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+          <folding>
+            <element signature="e#1001#1007#0#HTML" expanded="true" />
+            <element signature="e#1007#1013#0#HTML" expanded="true" />
+            <element signature="e#1013#1019#0#HTML" expanded="true" />
+            <element signature="e#1019#1025#0#HTML" expanded="true" />
+            <element signature="e#1025#1031#0#HTML" expanded="true" />
+            <element signature="e#1031#1037#0#HTML" expanded="true" />
+            <element signature="e#1037#1043#0#HTML" expanded="true" />
+            <element signature="e#1043#1049#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
