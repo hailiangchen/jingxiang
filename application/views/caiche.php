@@ -3,11 +3,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 
-
-    <title>全天重庆彩计划</title>
+    <title>北京赛车全天计划</title>
     <script language="javascript" src="<?php echo base_url();?>style/js/jquery.min.js" type="text/javascript"></script>
     <script language="javascript" src="<?php echo base_url();?>style/js/common.js" type="text/javascript"></script>
-
     <link href="<?php echo base_url();?>style/css/style.css" rel="stylesheet" />
     <link href="<?php echo base_url();?>style/css/css.css" rel="stylesheet" type="text/css">
     <style type="text/css">
@@ -18,16 +16,15 @@
 </head>
 
 <body leftmargin="0" topmargin="0">
-<div class="header_top">欢迎您访问领头羊团队-重庆彩全天计划表网页版 易记网址：<span id="ftcolor" class="changecolor0"><?php echo $result->weburl;?> </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
-
+<div class="header_top">欢迎您访问领头羊团队-北京赛车全天计划表网页版 易记网址：<span id="ftcolor" class="changecolor0"><?php echo $result->weburl;?> </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
 <div class="main">
     <div class="width_1000">
         <div class="count">
             <div class="firstcount">
                 <div class="pic">
-                    <img alt="img" src="<?php echo base_url();?>style/images/sscb.png" width="90" height="91" />                </div>
+                    <img alt="img" src="<?php echo base_url();?>style/images/saiche.png" width="90" height="91" />                </div>
                 <div class="text">
-                    <h2>重庆彩</h2>
+                    <h2>北京赛车</h2>
                     <p>
                         <span>10:00--22:00/十分钟开奖</span><br />
                         <span>22:05--01:55/五分钟开奖</span>
@@ -37,9 +34,10 @@
             <div class="middlecount">
                 <div id="cqsscdt">
                     <h2></h2>
-                    <div class="cqssc-nums" style="padding-left: 100px;">
+                    <div class="cqssc-nums" style="padding-left: 10px;">
 
                     </div>
+
                 </div>
             </div>
             <div class="lastcount">
@@ -70,33 +68,19 @@
 
 
 <div id="plandt"><div align="center" style="font-family:微软雅黑;line-height:26px">
-       <div style="color:blue;font-size:24px;line-height:35px"><b>领头羊团队分析师推荐 <br><span style="color:red" id="nextperiod"> </span></b></div>	<span style="color:blue;font-size:16px">网页自动更新计划，用户无需手动刷新。网址：<?php echo $result->weburl;?></span><br>
+      <div style="color:blue;font-size:24px;line-height:35px"><b>领头羊团队分析师推荐<br><span style="color:red" id="nextperiod"></span></b></div>	<span style="color:blue;font-size:16px">网页自动更新计划，用户无需手动刷新。网址：<?php echo $result->weburl;?></span><br>
         <span style="font-size:16px">我们3期一个计划，计划中奖则更新计划，3期不中也更新计划。</span><br><br>
         <span style="color:blue;font-size:30px;line-height:45px"><b>当天计划表</b></span>
         <div>
-            <?php echo str_replace("\r","<br />",$result->shishicai);?>
+            <?php echo str_replace("\r","<br />",$result->beijingcaiche);?>
         </div>
     </div></div>
 <script language="javascript" type="text/javascript">
-   /* function plancont()
-    {
-        $("#plandt").css("display","none");
-        var htmlobj=$.ajax({url:"gw_getplandata.html",async:false});
-        if(htmlobj.responseText!="0")
-        {
-            $("#plandt").css("display","");
-            $("#plandt").html(htmlobj.responseText);
-        }
-    }
-    setInterval("plancont()",10000);*/
-
-
-
     function cqssccont()
     {
         $(".cqssc-nums").html("");
         $.ajax({
-            url:"/plan/getData",
+            url:"/plan/getSData",
             type:"get",
             success:function (data) {
                 var d=JSON.parse(data);
@@ -110,8 +94,8 @@
                 })
             }
         });
-        
-       
+
+
     }
 
     setInterval("cqssccont()",30000);

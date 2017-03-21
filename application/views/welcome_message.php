@@ -17,7 +17,7 @@
             <div class="inner-wrapper cls">
                 <h1 class="logo"><a href="/" title="彩运来线路检测">彩运来线路网址</a></h1>
                 <div class="slogan"></div>
-                <div class="search">www.13030.com</div>
+                <div class="search"><?php echo $result->weburl;?>/div>
             </div>
         </div>
     </div>
@@ -30,7 +30,7 @@
         </div>
         <div class="inner-wrapper">
             <div class="main">
-                <div style="padding-top:15px;height:30px;font-size:16px;color:#000">常用导航→【<a href="http://www.yingqian.la" target="_blank"><font color="blue">新手指南</font></a>】【<a href="http://15050.com" target="_blank"><font color="blue">计划网页版</font></a>】【<a href="http://www.cyl12580.com/zoushitu/path.php?type=3" target="_blank"><font color="blue">三分彩/五分彩/分分彩走势图</font></a>】【<a href="itms-services://?action=download-manifest&url=https://www.aa9988.net/cyl/cyl.plist" target="_blank"><font color="blue">iphone手机版下载</font></a>】【<a href="http://www.aa9988.net/cyl/cyl.apk" target="_blank"><font color="blue">Android手机版下载</font></a>】</a></div>
+                <div style="padding-top:15px;height:30px;font-size:16px;color:#000">常用导航→【<a href="http://www.yingqian.la" target="_blank"><font color="blue">新手指南</font></a>】【<a href="/plan/shishi" target="_blank"><font color="blue">计划网页版</font></a>】【<a href="http://www.cyl12580.com/zoushitu/path.php?type=3" target="_blank"><font color="blue">三分彩/五分彩/分分彩走势图</font></a>】【<a href="itms-services://?action=download-manifest&url=https://www.aa9988.net/cyl/cyl.plist" target="_blank"><font color="blue">iphone手机版下载</font></a>】【<a href="http://www.aa9988.net/cyl/cyl.apk" target="_blank"><font color="blue">Android手机版下载</font></a>】</a></div>
                 <div class="crumbs"><font color="#FF0000">温馨提示：MS越小,打开就越快。</font>如不能正常注册/登录解决步骤：打开浏览器→选择【工具】→Internet选项→再选择 (删除历史浏览记录)→删除→重启浏览器</div>
                 <div class="cls">
                     <div class="zc-click-here"></div>

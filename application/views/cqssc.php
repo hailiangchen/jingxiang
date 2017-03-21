@@ -31,7 +31,7 @@
                 <div id="bottom">
                     <div id="countdown">
                         <span><a href="http://yingqian.la/" target="_blank"><font color="#FFFFFF">第一次不懂赚钱请点这里哦~~</font></a></span><br />
-                        <span>帮助中心QQ：800049596</span>
+                        <span>帮助中心QQ：123456789</span>
                     </div>
                 </div>
             </div>
@@ -44,28 +44,15 @@
 
     function cqssccont()
     {
-        $.ajax({
 
-            dataType:"jsonp",
-            url:"http://www.15050.com/cqssc/cqssc.html",
-            jsonpCallback:'myfunc'
-        })
-
-
-
-
-
-      /*  var htmlobj=$.ajax({url:"http://www.15050.com/cqssc/cqssc.html",async:false});
+       var htmlobj=$.ajax({url:"/plan/getData",async:false});
         if(htmlobj.responseText!="0")
         {
             $("#cqsscdt").css("display","");
             $("#cqsscdt").html(htmlobj.responseText);
-        }*/
+        }
     }
-    function myfunc(list) {
-        //$("#cqsscdt").html(list);
-        alert("aaa");
-    }
+
     setInterval("cqssccont()",10000);
     //setInterval("getif()",10000);
 

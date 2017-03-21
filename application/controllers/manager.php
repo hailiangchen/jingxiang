@@ -96,8 +96,11 @@ class Manager extends CI_Controller
         $data["qq1"]=$this->input->post('qq1');
         $data["qq2"]=$this->input->post('qq2');
         $data["shishicai"]=$this->input->post('cqssc');
+        $data["liuhecainum"]=$this->input->post("lhcnum");
+        $data["qishu"]=$this->input->post('qihao');
         $data["beijingcaiche"]=$this->input->post('bjcc');
         $data["liuhecai"]=$this->input->post('lhc');
+        $data["weburl"]=$this->input->post('weburl');
         $data["id"]=1;
 
         $this->load->model("modelcontent");

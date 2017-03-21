@@ -4,6 +4,12 @@
 <div class="page-container">
     <form  class="form form-horizontal" id="peizhiForm">
         <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2">本站网址</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" value="<?php echo $result[0]->weburl;?>" placeholder="" id="" name="weburl">
+            </div>
+        </div>
+        <div class="row cl">
             <label class="form-label col-xs-4 col-sm-2">QQ1：</label>
             <div class="formControls col-xs-8 col-sm-9">
                 <input type="text" class="input-text" value="<?php echo $result[0]->qq1;?>" placeholder="" id="" name="qq1">
@@ -15,7 +21,15 @@
                 <input type="text" class="input-text" value="<?php echo $result[0]->qq2;?>" placeholder="" id="" name="qq2">
             </div>
         </div>
-
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2">六合彩号码</label>
+            <div class="formControls col-xs-1 col-sm-2">
+                <input type="text" class="input-text" value="<?php echo $result[0]->qishu;?>" placeholder="期号" id="" name="qihao">
+            </div>
+            <div class="formControls col-xs-7 col-sm-7">
+                <input type="text" class="input-text" value="<?php echo $result[0]->liuhecainum;?>" placeholder="1,2,3,4,5,6格式" id="" name="lhcnum">
+            </div>
+        </div>
 
 
         <div class="row cl">

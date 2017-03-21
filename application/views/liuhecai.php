@@ -3,13 +3,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 
-
-    <title>全天重庆彩计划</title>
+    <title>六合彩全天计划</title>
     <script language="javascript" src="<?php echo base_url();?>style/js/jquery.min.js" type="text/javascript"></script>
     <script language="javascript" src="<?php echo base_url();?>style/js/common.js" type="text/javascript"></script>
-
-    <link href="<?php echo base_url();?>style/css/style.css" rel="stylesheet" />
     <link href="<?php echo base_url();?>style/css/css.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo base_url();?>style/css/style.css" rel="stylesheet" />
     <style type="text/css">
         <!--
         .STYLE1 {color: #FF0000}
@@ -18,8 +16,7 @@
 </head>
 
 <body leftmargin="0" topmargin="0">
-<div class="header_top">欢迎您访问领头羊团队-重庆彩全天计划表网页版 易记网址：<span id="ftcolor" class="changecolor0"><?php echo $result->weburl;?> </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
-
+<div class="header_top">欢迎您访问领头羊团队-六合彩全天计划表网页版 易记网址：<span id="ftcolor" class="changecolor0"><?php echo $result->weburl;?> </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
 <div class="main">
     <div class="width_1000">
         <div class="count">
@@ -27,7 +24,8 @@
                 <div class="pic">
                     <img alt="img" src="<?php echo base_url();?>style/images/sscb.png" width="90" height="91" />                </div>
                 <div class="text">
-                    <h2>重庆彩</h2>
+                    <h2>六合彩</h2>
+
                     <p>
                         <span>10:00--22:00/十分钟开奖</span><br />
                         <span>22:05--01:55/五分钟开奖</span>
@@ -36,10 +34,17 @@
             </div>
             <div class="middlecount">
                 <div id="cqsscdt">
-                    <h2></h2>
-                    <div class="cqssc-nums" style="padding-left: 100px;">
-
+                    <h2>第<?php echo $result->qishu;?>开奖号码</h2>
+                    <div class="cqssc-nums" style="padding-left: 40px;">
+                        <?php $num=explode(',',$result->liuhecainum);
+                        foreach ($num as $item)
+                        {
+                            echo '<span>'.$item.'</span>';
+                        }
+                        ?>
                     </div>
+
+
                 </div>
             </div>
             <div class="lastcount">
@@ -54,6 +59,7 @@
         </div>
     </div>
 </div>
+
 <div >
     <table style="margin: 0 auto;text-align: center" border="0" align="center" cellpadding="0" cellspacing="0">
         <tbody><tr style="height:62px;background-color: #efefef;width; text-align: center ">
@@ -70,15 +76,15 @@
 
 
 <div id="plandt"><div align="center" style="font-family:微软雅黑;line-height:26px">
-       <div style="color:blue;font-size:24px;line-height:35px"><b>领头羊团队分析师推荐 <br><span style="color:red" id="nextperiod"> </span></b></div>	<span style="color:blue;font-size:16px">网页自动更新计划，用户无需手动刷新。网址：<?php echo $result->weburl;?></span><br>
-        <span style="font-size:16px">我们3期一个计划，计划中奖则更新计划，3期不中也更新计划。</span><br><br>
+      <!--  <div style="color:blue;font-size:24px;line-height:35px"><b>领头羊团队分析师推荐<br><span style="color:red">062-064期 个位【01235】063期 等开</span></b></div>	<span style="color:blue;font-size:16px">网页自动更新计划，用户无需手动刷新。网址：<?php /*echo $result->weburl;*/?></span><br>
+        <span style="font-size:16px">我们3期一个计划，计划中奖则更新计划，3期不中也更新计划。</span><br><br>-->
         <span style="color:blue;font-size:30px;line-height:45px"><b>当天计划表</b></span>
         <div>
-            <?php echo str_replace("\r","<br />",$result->shishicai);?>
+            <?php echo str_replace("\r","<br />",$result->liuhecai);?>
         </div>
     </div></div>
-<script language="javascript" type="text/javascript">
-   /* function plancont()
+<!--<script language="javascript" type="text/javascript">
+    function plancont()
     {
         $("#plandt").css("display","none");
         var htmlobj=$.ajax({url:"gw_getplandata.html",async:false});
@@ -88,34 +94,8 @@
             $("#plandt").html(htmlobj.responseText);
         }
     }
-    setInterval("plancont()",10000);*/
-
-
-
-    function cqssccont()
-    {
-        $(".cqssc-nums").html("");
-        $.ajax({
-            url:"/plan/getData",
-            type:"get",
-            success:function (data) {
-                var d=JSON.parse(data);
-                $("#cqsscdt h2").html("第"+d.current.periodNumber+"开奖号码");
-                $("#nextperiod").html(d.next.periodNumber+"期等开");
-                var num=d.current.awardNumbers
-                var strs=new Array();
-                strs=num.split(",");
-                $.each(strs,function (key,value) {
-                    $(".cqssc-nums").append("<span>"+value+"</span>")
-                })
-            }
-        });
-        
-       
-    }
-
-    setInterval("cqssccont()",30000);
-</script>
+    setInterval("plancont()",10000);
+</script>-->
 <div class="s-bg-2a" style="font-family:微软雅黑;">
     <div class="g-b-banner">
         <ul>
@@ -138,6 +118,6 @@
         </ul>
     </div>
 </div>
-<script language="javascript" type="text/javascript">cqssccont();</script>
+<script language="javascript" type="text/javascript">plancont();</script>
 
 </body></html>

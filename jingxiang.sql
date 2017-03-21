@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: 2017-03-19 16:37:36
+-- Generation Time: 2017-03-21 07:49:23
 -- 服务器版本： 10.1.19-MariaDB
 -- PHP Version: 5.6.28
 
@@ -59,6 +59,8 @@ CREATE TABLE IF NOT EXISTS `51_content` (
   `beijingcaiche` text,
   `liuhecai` text,
   `liuhecainum` varchar(20) DEFAULT NULL,
+  `weburl` varchar(50) DEFAULT NULL,
+  `qishu` varchar(10) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
@@ -66,8 +68,8 @@ CREATE TABLE IF NOT EXISTS `51_content` (
 -- 转存表中的数据 `51_content`
 --
 
-INSERT INTO `51_content` (`id`, `qq1`, `qq2`, `shishicai`, `beijingcaiche`, `liuhecai`, `liuhecainum`) VALUES
-(1, '', '', '', '', '', '');
+INSERT INTO `51_content` (`id`, `qq1`, `qq2`, `shishicai`, `beijingcaiche`, `liuhecai`, `liuhecainum`, `weburl`, `qishu`) VALUES
+(1, '123456', '123454', 'sdfasdf\r\nsdfasdfas\r\nsdfasdfa\r\nasdfasdf\r\nasdfasdf\r\nsdflksdjflasdf\r\nsdfsdfasd\r\nsdfgasdfa', 'sdfasdf', 'sdfasdf', '21,34,43,11,1,2,3,3', 'www.ceshi.com', '12');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
