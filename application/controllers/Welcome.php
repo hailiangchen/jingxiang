@@ -24,5 +24,6 @@ class Welcome extends CI_Controller {
         $data['result']=$this->modelcontent->GetContent(array('id'=>1,'first'=>true));
 
 		$this->load->view('welcome_message',$data);
+       //redirect(base_url()."plan/shishi");
 	}
 }

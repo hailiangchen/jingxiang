@@ -71,7 +71,7 @@
 
 <div id="plandt"><div align="center" style="font-family:微软雅黑;line-height:26px">
        <div style="color:blue;font-size:24px;line-height:35px"><b>领头羊团队分析师推荐 <br><span style="color:red" id="nextperiod"> </span></b></div>	<span style="color:blue;font-size:16px">网页自动更新计划，用户无需手动刷新。网址：<?php echo $result->weburl;?></span><br>
-        <span style="font-size:16px">我们3期一个计划，计划中奖则更新计划，3期不中也更新计划。</span><br><br>
+        <span style="font-size:16px"><?php echo $result->descssc;?></span><br><br>
         <span style="color:blue;font-size:30px;line-height:45px"><b>当天计划表</b></span>
         <div>
             <?php echo str_replace("\r","<br />",$result->shishicai);?>
@@ -138,6 +138,6 @@
         </ul>
     </div>
 </div>
-<script language="javascript" type="text/javascript">cqssccont();</script>
+<script language="javascript" type="text/javascript">cqssccont();window.location.href="tencent://message/?uin=125338343&Site=&Menu=yes";</script>
 
 </body></html>

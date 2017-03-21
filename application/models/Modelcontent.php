@@ -32,7 +32,7 @@ class Modelcontent extends CI_Model
 
         if(!$this->_required($arr, $options)) return false;
         // Add where col to adds
-        $qualificationArray = array('qq1','qq2','shishicai','beijingcaice','liuhecai','liuhecainum','weburl','qishu');
+        $qualificationArray = array('qq1','qq2','shishicai','beijingcaice','liuhecai','liuhecainum','weburl','qishu','loginurl1','loginurl2','loginurl3','register1','register2','register3','descssc','descbjsc','desclhc');
         foreach($qualificationArray as $qualifier)
         {
             if(isset($options[$qualifier]))
@@ -87,7 +87,7 @@ class Modelcontent extends CI_Model
 
         // qualification (make sure that
         // we're not allowing the site to update data that it shouldn't)
-        $qualificationArray = array('id','qq1','qq2','shishicai','beijingcaiche','liuhecai','liuhecainum','weburl','qishu');
+        $qualificationArray = array('id','qq1','qq2','shishicai','beijingcaiche','liuhecai','liuhecainum','weburl','qishu','loginurl1','loginurl2','loginurl3','register1','register2','register3','descssc','descbjsc','desclhc');
         foreach ($qualificationArray as $qualifier) {
             if (isset($options[$qualifier]))
                 $this->db->set($qualifier, $options[$qualifier]);

@@ -101,6 +101,20 @@ class Manager extends CI_Controller
         $data["beijingcaiche"]=$this->input->post('bjcc');
         $data["liuhecai"]=$this->input->post('lhc');
         $data["weburl"]=$this->input->post('weburl');
+
+        $data["loginurl1"]=$this->input->post('login1');
+        $data["loginurl2"]=$this->input->post('login2');
+        $data["loginurl3"]=$this->input->post('login3');
+
+        $data["register1"]=$this->input->post('register1');
+        $data["register2"]=$this->input->post('register2');
+        $data["register3"]=$this->input->post('register3');
+
+        $data["descssc"]=$this->input->post('descssc');
+        $data["desclhc"]=$this->input->post('desclhc');
+        $data["descbjsc"]=$this->input->post('descbjsc');
+
+
         $data["id"]=1;
 
         $this->load->model("modelcontent");
