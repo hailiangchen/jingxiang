@@ -16,7 +16,7 @@
 </head>
 
 <body leftmargin="0" topmargin="0">
-<div class="header_top">欢迎您访问新时代团队-北京赛车全天计划表网页版 易记网址：<span id="ftcolor" class="changecolor0"><?php echo $result->weburl;?> </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+<div class="header_top">欢迎您访问领头羊团队-北京赛车全天计划表网页版 易记网址：<span id="ftcolor" class="changecolor0"><?php echo $result->weburl;?> </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
 <div class="main">
     <div class="width_1000">
         <div class="count">
@@ -68,7 +68,7 @@
 
 
 <div id="plandt"><div align="center" style="font-family:微软雅黑;line-height:26px">
-      <div style="color:blue;font-size:24px;line-height:35px"><b>新时代团队分析师推荐<br><span style="color:red" id="nextperiod"></span></b></div>	<span style="color:blue;font-size:16px">网页自动更新计划，用户无需手动刷新。网址：<?php echo $result->weburl;?></span><br>
+      <div style="color:blue;font-size:24px;line-height:35px"><b>领头羊团队分析师推荐<br><span style="color:red" id="nextperiod"></span></b></div>	<span style="color:blue;font-size:16px">网页自动更新计划，用户无需手动刷新。网址：<?php echo $result->weburl;?></span><br>
         <span style="font-size:16px"><?php echo $result->descbjsc;?></span><br><br>
         <span style="color:blue;font-size:30px;line-height:45px"><b>当天计划表</b></span>
         <div>

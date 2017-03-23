@@ -30,7 +30,7 @@
         </div>
         <div class="inner-wrapper">
             <div class="main">
-                <div style="padding-top:15px;height:30px;font-size:16px;color:#000">【<a href="/plan/shishi" target="_blank"><font color="blue">计划网页版</font></a>】【QQ:<?php echo $result->qq1;?>】</a></div>
+                <div style="padding-top:15px;height:30px;font-size:16px;color:#000"></div>
                 <div class="crumbs"><font color="#FF0000">温馨提示：MS越小,打开就越快。</font>如不能正常注册/登录解决步骤：打开浏览器→选择【工具】→Internet选项→再选择 (删除历史浏览记录)→删除→重启浏览器</div>
                 <div class="cls">
                     <div class="zc-click-here"></div>
