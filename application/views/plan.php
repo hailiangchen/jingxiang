@@ -21,7 +21,6 @@
 <div class="header_top">欢迎您访问领头羊团队-重庆彩全天计划表网页版 易记网址：<span id="ftcolor" class="changecolor0"><?php echo $result->weburl;?> </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
 
 <div class="main">
-    <div class="width_1000">
         <div class="count">
             <div class="firstcount">
                 <div class="pic">
