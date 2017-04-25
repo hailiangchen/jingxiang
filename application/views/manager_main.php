@@ -68,14 +68,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <input runat="server" id="divScrollValue" type="hidden" value="" />
     <div class="menu_dropdown bk_2">
 
-
-
-
-
         <dl id="menu-system">
             <dt class="selected"><i class="Hui-iconfont">&#xe62e;</i> 系统管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
             <dd style="display:block;">
                 <ul>
+                    <li><a _href="<?php echo base_url();?>index.php/manager/orderlist" data-title="订单列表" href="javascript:void(0)">订单列表</a></li>
                     <li><a _href="<?php echo base_url();?>index.php/manager/peizhi" data-title="配置信息" href="javascript:void(0)">配置信息</a></li>
                     <li><a _href="<?php echo base_url();?>index.php/manager/admin" data-title="管理员" href="javascript:void(0)">管理员</a></li>
                 </ul>

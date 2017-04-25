@@ -23,7 +23,7 @@ class Welcome extends CI_Controller {
         $this->load->model("modelcontent");
         $data['result']=$this->modelcontent->GetContent(array('id'=>1,'first'=>true));
 
-		$this->load->view('welcome_message',$data);
+		$this->load->view('welcome',$data);
        //redirect(base_url()."plan/shishi");
 	}
 }

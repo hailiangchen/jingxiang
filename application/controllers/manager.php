@@ -38,6 +38,15 @@ class Manager extends CI_Controller
         $this->load->view("Manager_adminlist",$data);
     }
 
+    function orderlist()
+    {
+
+        $this->load->model("modelpayorder");
+        $data["result"]=$this->modelpayorder->GetPayOrder();
+        $this->load->view("header");
+        $this->load->view("Manager_orderlist",$data);
+    }
+
     private function addadmin()
     {
         $userpass="51vv.userManager";

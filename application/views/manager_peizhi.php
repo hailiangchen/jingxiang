@@ -3,118 +3,43 @@
 <body>
 <div class="page-container">
     <form  class="form form-horizontal" id="peizhiForm">
-        <div class="col-xs-6 col-sm-6">
+        <div class="col-xs-8 col-sm-8">
             <div class="row cl">
                 <label class="form-label col-xs-4 col-sm-2">本站网址</label>
                 <div class="formControls col-xs-8 col-sm-9">
                     <input type="text" class="input-text" value="<?php echo $result[0]->weburl;?>" placeholder="" id="" name="weburl">
                 </div>
             </div>
-            <div class="row cl">
-                <label class="form-label col-xs-4 col-sm-2">QQ1：</label>
-                <div class="formControls col-xs-8 col-sm-9">
-                    <input type="text" class="input-text" value="<?php echo $result[0]->qq1;?>" placeholder="" id="" name="qq1">
-                </div>
-            </div>
-            <div class="row cl">
-                <label class="form-label col-xs-4 col-sm-2">QQ2：</label>
-                <div class="formControls col-xs-8 col-sm-9">
-                    <input type="text" class="input-text" value="<?php echo $result[0]->qq2;?>" placeholder="" id="" name="qq2">
-                </div>
-            </div>
-            <div class="row cl">
-                <label class="form-label col-xs-4 col-sm-2">六合彩号码</label>
-                <div class="formControls col-xs-1 col-sm-2">
-                    <input type="text" class="input-text" value="<?php echo $result[0]->qishu;?>" placeholder="期号" id="" name="qihao">
-                </div>
-                <div class="formControls col-xs-7 col-sm-7">
-                    <input type="text" class="input-text" value="<?php echo $result[0]->liuhecainum;?>" placeholder="1,2,3,4,5,6格式" id="" name="lhcnum">
-                </div>
-            </div>
+
 
 
             <div class="row cl">
-                <label class="form-label col-xs-4 col-sm-2">重庆时时彩：</label>
-                <div class="formControls col-xs-8 col-sm-9">
-                    <textarea name="cqssc" cols="" rows="10" class="textarea" placeholder="" dragonfly="true" nullmsg=""><?php echo $result[0]->shishicai;?></textarea>
-
-                </div>
-            </div>
-
-            <div class="row cl">
-                <label class="form-label col-xs-4 col-sm-2">六合彩：</label>
-                <div class="formControls col-xs-8 col-sm-9">
-                    <textarea name="lhc" cols="" rows="10" class="textarea" placeholder="" dragonfly="true" nullmsg=""><?php echo $result[0]->liuhecai;?></textarea>
-
-                </div>
-            </div>
-
-            <div class="row cl">
-                <label class="form-label col-xs-4 col-sm-2">北京赛车：</label>
-                <div class="formControls col-xs-8 col-sm-9">
-                    <textarea name="bjcc" cols="" rows="10" class="textarea" placeholder="" dragonfly="true" nullmsg=""><?php echo $result[0]->beijingcaiche;?></textarea>
-                </div>
-            </div>
-
-
-
-        </div>
-        <div class="col-xs-6 col-sm-6">
-            <div class="row cl">
-                <label class="form-label col-xs-4 col-sm-2">登录网址1</label>
+                <label class="form-label col-xs-4 col-sm-2">线路一</label>
                 <div class="formControls col-xs-8 col-sm-9">
                     <input type="text" class="input-text" value="<?php echo $result[0]->loginurl1;?>" placeholder="" id="" name="login1">
                 </div>
             </div>
             <div class="row cl">
-                <label class="form-label col-xs-4 col-sm-2">登录网址2</label>
+                <label class="form-label col-xs-4 col-sm-2">线路二</label>
                 <div class="formControls col-xs-8 col-sm-9">
                     <input type="text" class="input-text" value="<?php echo $result[0]->loginurl2;?>" placeholder="" id="" name="login2">
                 </div>
             </div>
             <div class="row cl">
-                <label class="form-label col-xs-4 col-sm-2">登录网址3</label>
+                <label class="form-label col-xs-4 col-sm-2">线路三</label>
                 <div class="formControls col-xs-8 col-sm-9">
                     <input type="text" class="input-text" value="<?php echo $result[0]->loginurl3;?>" placeholder="" id="" name="login3">
                 </div>
             </div>
             <div class="row cl">
-                <label class="form-label col-xs-4 col-sm-2">注册网址1</label>
+                <label class="form-label col-xs-4 col-sm-2">线路四</label>
                 <div class="formControls col-xs-8 col-sm-9">
                     <input type="text" class="input-text" value="<?php echo $result[0]->register1;?>" placeholder="" id="" name="register1">
                 </div>
             </div>
-            <div class="row cl">
-                <label class="form-label col-xs-4 col-sm-2">注册网址2</label>
-                <div class="formControls col-xs-8 col-sm-9">
-                    <input type="text" class="input-text" value="<?php echo $result[0]->register2;?>" placeholder="" id="" name="register2">
-                </div>
-            </div>
-            <div class="row cl">
-                <label class="form-label col-xs-4 col-sm-2">注册网址3</label>
-                <div class="formControls col-xs-8 col-sm-9">
-                    <input type="text" class="input-text" value="<?php echo $result[0]->register3;?>" placeholder="" id="" name="register3">
-                </div>
-            </div>
 
-            <div class="row cl">
-                <label class="form-label col-xs-4 col-sm-2">时时彩计划描述</label>
-                <div class="formControls col-xs-8 col-sm-9">
-                    <input type="text" class="input-text" value="<?php echo $result[0]->descssc;?>" placeholder="" id="" name="descssc">
-                </div>
-            </div>
-            <div class="row cl">
-                <label class="form-label col-xs-4 col-sm-2">北京赛车计划描述</label>
-                <div class="formControls col-xs-8 col-sm-9">
-                    <input type="text" class="input-text" value="<?php echo $result[0]->descbjsc;?>" placeholder="" id="" name="descbjsc">
-                </div>
-            </div>
-            <div class="row cl">
-                <label class="form-label col-xs-4 col-sm-2">六合彩计划描述</label>
-                <div class="formControls col-xs-8 col-sm-9">
-                    <input type="text" class="input-text" value="<?php echo $result[0]->desclhc;?>" placeholder="" id="" name="desclhc">
-                </div>
-            </div>
+
+
 
         </div>
 

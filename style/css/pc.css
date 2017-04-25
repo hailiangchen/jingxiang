@@ -61,7 +61,7 @@ body {
 	width: 100%;
 	font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", sans-serif;
 	-webkit-font-smoothing: antialiased;
-	background: url('./bg.jpg') repeat;
+	background: url('../images/bg.jpg') repeat;
 	overflow-x: hidden;
 }
 a {
@@ -213,7 +213,7 @@ input[type=radio]:checked:after {
 	display: block;
 	width: 220px;
 	height: 50px;
-	background-color: #453c3c;
+	background-color: rgb(21,178,138);
 	border-radius: 6px;
 	text-align: center;
 	line-height: 50px;
@@ -295,7 +295,7 @@ input[type=radio]:checked:after {
 	height: 42px;
 	box-sizing: border-box;
 	display: block;
-	background: rgb(250, 229, 87);
+	background: rgb(21,178,138);
 	border: solid 2px #453c3c;
 	line-height: 42px;
 	text-align: center;

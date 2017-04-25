@@ -25,7 +25,7 @@ class Modelpayorder extends CI_Model
 
         if(!$this->_required($arr, $options)) return false;
         // Add where col to adds
-        $qualificationArray = array('username','paytype','orderno','paymount','addtime');
+        $qualificationArray = array('username','paytype','orderno','payamount','addtime');
         foreach($qualificationArray as $qualifier)
         {
             if(isset($options[$qualifier]))
