@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-@import url("base.css");
+@import url("base.cssbak");
 body{ width:100%;background:url(../images/sd.jpg) repeat-x;height:100%;}
 
 .gong{ padding-top:115px;}

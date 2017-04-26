@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>威尼斯人娱乐城 - 微信|支付宝|网银快速充值中心</title>
+    <title></title>
     <meta name="generator" content="">
     <meta name="author" content="">
     <meta name="keywords" content="">
@@ -30,28 +30,28 @@
         </div>
     </div>
     <div class="content">
-        <a href=""  class="service">在线客服</a>
+        <a href="tencent://message/?uin=<?php echo $result->qq1;?>&Site=&Menu=yes"  class="service">在线客服</a>
 
         <h2>
             支持【<span style="color: #ff0000;">手机端</span>、<span style="color:#000cff;">电脑端</span>】<span style="color:#05a11f">【微信扫码】</span>、
             <span style="color:#fa00d4">【支付宝】</span>、【<span style="color: #ff0000;">手机网银、信用卡</span>】在线支付最高单笔5万元！
         </h2>
 
-        <h2><span style="color:#fa00d4">手机也可以支付</span>，浏览器输入网址： <span style="color:#000cff;">www.3111pay1.com</span> 进行支付，支付成功
+        <h2><span style="color:#fa00d4">手机也可以支付</span>，浏览器输入网址： <span style="color:#000cff;"><?php echo $result->weburl;?></span> 进行支付，支付成功
             <span style="color: #ff0000;">3s</span>自动到账!<br>
 
 
             <div class="bd">
                 <ul class="ul-list">
-                    <li><a href="" target="_blank" title="线路1"><img src="<?php echo base_url();?>style/images/logo1.png">线路1</a>
+                    <li><a href="<?php echo $result->loginurl1;?>" target="_blank" title="线路1"><img src="<?php echo base_url();?>style/images/logo1.png">线路1</a>
                         <!--<i class="hot-1"></i>-->
                     </li>
-                    <li><a href="" target="_blank" title="线路2"><img src="<?php echo base_url();?>style/images/logo1.png">线路2</a>
+                    <li><a href="<?php echo $result->loginurl2;?>" target="_blank" title="线路2"><img src="<?php echo base_url();?>style/images/logo1.png">线路2</a>
                     </li>
-                    <li><a href="" target="_blank" title="线路3"><img src="<?php echo base_url();?>style/images/logo1.png">线路3</a>
+                    <li><a href="<?php echo $result->loginurl3;?>" target="_blank" title="线路3"><img src="<?php echo base_url();?>style/images/logo1.png">线路3</a>
 
                     </li>
-                    <li><a href="" target="_blank" title="线路4"><img src="<?php echo base_url();?>style/images/logo1.png">线路4</a>
+                    <li><a href="<?php echo $result->register3;?>" target="_blank" title="线路4"><img src="<?php echo base_url();?>style/images/logo1.png">线路4</a>
 
 
                 </ul>
@@ -60,7 +60,7 @@
                 <tbody><tr>
                     <td class="title">会员账号：</td>
                     <td class="inputtd">
-                        <input name="client_type" id="client_type" type="hidden" value="1">
+                        <input name="client" id="client_type" type="hidden" value="1">
                         <input name="username" id="username" type="text" value="" class="table-input" placeholder="请填写威尼斯人娱乐城会员账户">
                     </td>
                     <td align="center" style="color: #e60012;">*必填</td>
@@ -127,7 +127,7 @@
                 <span style="color:#f00;">温馨提示：</span>为了避免掉单情况的发生，请您在支付完成后，需等"支付成功"页面跳转出来, 再关闭页面，以免掉单！感谢配合！！！
                 <br>支付成功后，若3分钟内未能及时到达您的会员账号请联系
 
-                <a href="#" style="color:#f00">【在线客服】</a> 咨询；
+                <a href="tencent://message/?uin=<?php echo $result->qq1;?>&Site=&Menu=yes" style="color:#f00">【在线客服】</a> 咨询；
 
                 <br>威尼斯人娱乐城祝您游戏愉快，盈利多多！O(∩_∩)O　　 </p>
 

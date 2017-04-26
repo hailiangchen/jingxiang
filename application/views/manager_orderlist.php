@@ -16,6 +16,7 @@
                 <th>会员账户</th>
                 <th>付款金额</th>
                 <th>支付类型</th>
+                <th>客户端</th>
                 <th>单号</th>
                 <th width="120">登录时间</th>
 
@@ -29,6 +30,7 @@
                     <td><?php echo $item->username;?></td>
                     <td><?php echo $item->payamount;?></td>
                     <td><?php $re=$item->paytype==1?"微信":"支付宝"; echo $re;?></td>
+                    <td><?php $re=$item->client==1?"电脑":"手机"; echo $re;?></td>
                     <td><?php echo $item->orderno;?></td>
                     <td><?php echo $item->addtime;?></td>
                 </tr>

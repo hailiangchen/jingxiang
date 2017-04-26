@@ -131,5 +131,107 @@ class Manager extends CI_Controller
         echo json_encode(array("code"=>$re));
     }
 
+    public function upload()
+    {
+        $this->load->view('header');
+        $this->load->view("manager_uploadfile");
+    }
 
+
+
+    public  function  weipayfor()
+    {
+        if(!empty($_FILES['weifile']['name']))
+        {
+            $config['upload_path'] = '../images';
+            $config['allowed_types'] = 'gif|jpg|png';
+            $config['max_size'] = '1000';
+            $config['max_width'] = '1000';
+            $config['max_height'] = '1000';
+            $config['file_name'] = 'weipay.png';
+            $config['overwrite'] = TRUE;
+            $this->load->library('upload', $config);
+            if($this->upload->do_upload('weifile'))
+            {
+                echo '<script> alert("上传成功");</script>';
+            }else
+            {
+                $error = array('error' => $this->upload->display_errors());
+                var_dump($error);
+            }
+        }
+    }
+
+    public  function alipayfor()
+    {
+        if(!empty($_FILES['alifile']['name']))
+        {
+            $config['upload_path'] = '../images';
+            $config['allowed_types'] = 'gif|jpg|png';
+            $config['max_size'] = '1000';
+            $config['max_width'] = '1000';
+            $config['max_height'] = '1000';
+            $config['file_name'] = 'alipay.png';
+            $config['overwrite'] = TRUE;
+            $this->load->library('upload', $config);
+            if($this->upload->do_upload('alifile'))
+            {
+                echo '<script> alert("上传成功");</script>';
+            }else
+            {
+                $error = array('error' => $this->upload->display_errors());
+                var_dump($error);
+            }
+        }
+    }
+
+    public  function uploadfile()
+    {
+        $code=$this->input->post("code");
+
+        if ((($_FILES["file"]["type"] == "image/gif")||($_FILES["file"]["type"] == "image/png") || ($_FILES["file"]["type"] == "image/jpeg") || ($_FILES["file"]["type"] == "image/pjpeg")) && ($_FILES["file"]["size"] < 200000))
+        {
+            if ($_FILES["file"]["error"] > 0)
+            {
+                echo "Return Code: " . $_FILES["file"]["error"] . "<br />";
+            }
+            else
+            {
+                    $ext=end(explode('.', $_FILES["file"]["name"]));
+                    $newname=$this->randnum();
+                move_uploaded_file($_FILES["file"]["tmp_name"],
+                    "images/" . $newname .".".$ext);
+                if($code=="2")
+                {
+                    $data["register2"]="images/".$newname.".".$ext;
+                }else if($code=="1")
+                {
+                    $data["register1"]="images/".$newname.".".$ext;
+                }
+                $data["id"]=1;
+                    $this->load->model("modelcontent");
+                    $re=$this->modelcontent->UpdateContent($data);
+
+
+
+                    echo "<script>alert('上传成功');history.go(-1);</script>";
+
+            }
+        }
+        else
+        {
+            echo "无效上传";
+        }
+    }
+    protected function randnum()
+    {
+        $numbers = range (1,15);
+        srand((float)microtime() * 1000000);
+        shuffle($numbers);
+        $rnum="";
+        while (list(, $number) = each($numbers)) {
+            $rnum=$rnum.$number;
+        }
+        return $rnum;
+    }
 }

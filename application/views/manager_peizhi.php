@@ -11,7 +11,12 @@
                 </div>
             </div>
 
-
+            <div class="row cl">
+                <label class="form-label col-xs-4 col-sm-2">联系QQ</label>
+                <div class="formControls col-xs-8 col-sm-9">
+                    <input type="text" class="input-text" value="<?php echo $result[0]->qq1;?>" placeholder="" id="" name="qq1">
+                </div>
+            </div>
 
             <div class="row cl">
                 <label class="form-label col-xs-4 col-sm-2">线路一</label>
@@ -34,7 +39,7 @@
             <div class="row cl">
                 <label class="form-label col-xs-4 col-sm-2">线路四</label>
                 <div class="formControls col-xs-8 col-sm-9">
-                    <input type="text" class="input-text" value="<?php echo $result[0]->register1;?>" placeholder="" id="" name="register1">
+                    <input type="text" class="input-text" value="<?php echo $result[0]->register3;?>" placeholder="" id="" name="register1">
                 </div>
             </div>
 
