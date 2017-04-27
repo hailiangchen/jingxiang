@@ -89,7 +89,7 @@
     </div>
 
     <div class="sp_n" style="width: 90%; padding: 10px 5% 10px 5%;">
-        <span style="font-size: 18px;color: red; font-weight:bold; display: inline-block;text-align: center; width: 100%;">￥5000</span>
+        <span style="font-size: 18px;color: red; font-weight:bold; display: inline-block;text-align: center; width: 100%;">￥<?php echo $result->payamount;?></span>
 
         <span class="fonttext">支付时：请添加备注，填写您的会员账号，即可秒到账！</span>
         <div style="clear:both;"></div>

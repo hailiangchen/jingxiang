@@ -17,7 +17,8 @@
     <link href="" rel="shortcut icon" type="image/x-icon">
 
     <script src="<?php echo base_url();?>style/js/jquery18.js" type="text/javascript" charset="utf-8"></script>
-
+    <script src="<?php echo base_url();?>style/js/uaredirect.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">uaredirect("<?php echo base_url();?>moblie/index");</script>
 </head>
 <body>
 <form id="payorder" action="#" method="post" name="payorder">
