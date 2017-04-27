@@ -10,7 +10,7 @@
     <meta name="description" content="#">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.3111pay1.com/mobile/index.php#">
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://www.3111pay1.com/mobile/index.php#">
-    <title></title>
+    <title>威尼斯人</title>
     <link href="<?php echo base_url();?>style/mobile/style.css" rel="stylesheet" type="text/css">
 
 
@@ -136,9 +136,9 @@
     <div style="height: 7px;background-color: #eee; display: flex;"></div>
     <div class="sp_n">
         <span style="font-size: 18px;color: #403a38; display: inline-block;text-align: center; width: 100%;">温馨提示</span>
-        <span>1、微信扫码，支付宝，网银和信用卡支付单笔5万元以内。</span><br>
+        <span>1、微信扫码，支付宝支付。</span><br>
         <span>2、为了避免掉单情况的发生，请您在支付完成后，等待"支付成功"页面跳转出来后再关闭页面，以免掉单。</span><br>
-        <span>3、支付未到账？无法支付？请联系<a href="tencent://message/?uin=<?php echo $result->qq1;?>&Site=&Menu=yes" style="color:#f00">【在线客服】</a></span>
+        <span>3、支付未到账？无法支付？请联系<a href="http://chat.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=791896&configID=49640&jid=3032636154" style="color:#f00">【在线客服】</a></span>
     </div>
     <div style="height: 7px;background-color: #eee; display: flex;"></div>
     <div class="foot">Copyright © 威尼斯人娱乐城 版权所有</div>

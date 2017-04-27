@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>威尼斯人</title>
     <meta name="generator" content="">
     <meta name="author" content="">
     <meta name="keywords" content="">
@@ -18,7 +18,7 @@
 
     <script src="<?php echo base_url();?>style/js/jquery18.js" type="text/javascript" charset="utf-8"></script>
     <script src="<?php echo base_url();?>style/js/uaredirect.js" type="text/javascript" charset="utf-8"></script>
-    <script type="text/javascript" charset="utf-8">uaredirect("<?php echo base_url();?>moblie/index");</script>
+    <script type="text/javascript" charset="utf-8">uaredirect("<?php echo base_url();?>mobile/index");</script>
 </head>
 <body>
 <form id="payorder" action="#" method="post" name="payorder">
@@ -31,11 +31,11 @@
         </div>
     </div>
     <div class="content">
-        <a href="tencent://message/?uin=<?php echo $result->qq1;?>&Site=&Menu=yes"  class="service">在线客服</a>
+        <a href="http://chat.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=791896&configID=49640&jid=3032636154"  class="service">在线客服</a>
 
         <h2>
             支持【<span style="color: #ff0000;">手机端</span>、<span style="color:#000cff;">电脑端</span>】<span style="color:#05a11f">【微信扫码】</span>、
-            <span style="color:#fa00d4">【支付宝】</span>、【<span style="color: #ff0000;">手机网银、信用卡</span>】在线支付最高单笔5万元！
+            <span style="color:#fa00d4">【支付宝】</span> QQ客服：<?php echo $result->qq1;?>
         </h2>
 
         <h2><span style="color:#fa00d4">手机也可以支付</span>，浏览器输入网址： <span style="color:#000cff;"><?php echo $result->weburl;?></span> 进行支付，支付成功
@@ -128,7 +128,7 @@
                 <span style="color:#f00;">温馨提示：</span>为了避免掉单情况的发生，请您在支付完成后，需等"支付成功"页面跳转出来, 再关闭页面，以免掉单！感谢配合！！！
                 <br>支付成功后，若3分钟内未能及时到达您的会员账号请联系
 
-                <a href="tencent://message/?uin=<?php echo $result->qq1;?>&Site=&Menu=yes" style="color:#f00">【在线客服】</a> 咨询；
+                <a href="http://chat.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=791896&configID=49640&jid=3032636154" style="color:#f00">【在线客服】</a> 咨询；
 
                 <br>威尼斯人娱乐城祝您游戏愉快，盈利多多！O(∩_∩)O　　 </p>
 
