@@ -38,14 +38,13 @@ class Manager extends CI_Controller
         $this->load->view("Manager_adminlist",$data);
     }
 
-    function orderlist()
-    {
-
-        $this->load->model("modelpayorder");
-        $data["result"]=$this->modelpayorder->GetPayOrder();
-        $this->load->view("header");
-        $this->load->view("Manager_orderlist",$data);
-    }
+    //function orderlist()
+    //{
+    //    $this->load->model("modelpayorder");
+    //    $data["result"]=$this->modelpayorder->GetPayOrder();
+    //    $this->load->view("header");
+    //    $this->load->view("Manager_orderlist",$data);
+    //}//
 
     private function addadmin()
     {
@@ -223,6 +222,61 @@ class Manager extends CI_Controller
             echo "无效上传";
         }
     }
+
+    public function addpcurl()
+    {
+        $data["pcurl"]=$this->input->post('pcurl');
+
+        $this->load->model("modelpcurl");
+        $re=$this->modelpcurl->Add($data);
+        echo json_encode(array("result"=>$re));
+    }
+
+    public  function getpcurl()
+    {
+        $this->load->model("modelpcurl");
+        $data["result"]=$this->modelpcurl->Get();
+        $this->load->view("header");
+        $this->load->view("Manager_orderlist",$data);
+    }
+
+    public  function delpcurl()
+    {
+        $data['id']=$this->input->post('id');
+
+        $this->load->model("modelpcurl");
+        $re=$this->modelpcurl->Delete($data);
+        echo json_encode(array("result"=>$re));
+    }
+
+    public  function mbsave()
+    {
+        $data["id"]=1;
+        $data["mburl1"]=$this->input->post('mburl1');
+        $data["mburl2"]=$this->input->post('mburl2');
+        $data["mburl3"]=$this->input->post('mburl3');
+        $data["mburl4"]=$this->input->post('mburl4');
+        $data["openaccount"]=$this->input->post('openaccount');
+        $data["service"]=$this->input->post('service');
+        $data["topup"]=$this->input->post('topup');
+
+        $this->load->model("modelmburl");
+        $re=$this->modelmburl->Update($data);
+
+        echo json_encode(array("result"=>$re));
+    }
+
+    public  function mbview()
+    {
+        $this->load->model("modelmburl");
+        $data['result']=$this->modelmburl->Get(array('id'=>1));
+
+        //var_dump($data);
+
+        $this->load->view('header');
+        $this->load->view("manager_peizhi",$data);
+    }
+
     protected function randnum()
     {
         $numbers = range (1,15);

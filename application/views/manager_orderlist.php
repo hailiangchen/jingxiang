@@ -4,22 +4,23 @@
 <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i>   <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
 <div class="page-container">
 
-    <div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l">
-            <a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont"></i> 清空数据</a>
-           </span> <span class="r">共有数据：<strong><?php echo $result?count($result):'0';?></strong> 条</span> </div>
+    <div class="cl pd-5 bg-1 bk-gray mt-20">
+
+   <a href="javascript:;" onclick="add()" class="btn btn-primary radius"> 添加</a>
+
+        <div class="formControls col-xs-6 col-sm-6">
+            <input type="text" class="input-text" value="" placeholder="添加网站链接" id="pcurl" name="pcurl">
+        </div>
+    </div>
+
     <div class="mt-20">
         <table class="table table-border table-bordered table-bg table-hover table-sort">
             <thead>
             <tr class="text-c">
 
                 <th width="80">ID</th>
-                <th>会员账户</th>
-                <th>付款金额</th>
-                <th>支付类型</th>
-                <th>客户端</th>
-                <th>单号</th>
-                <th width="120">登录时间</th>
-
+                <th>链接</th>
+                <th width="100">操作</th>
 
             </tr>
             </thead>
@@ -27,12 +28,11 @@
             <?php foreach ($result?$result:array() as $item){?>
                 <tr class="text-c">
                     <td><?php echo $item->id;?></td>
-                    <td><?php echo $item->username;?></td>
-                    <td><?php echo $item->payamount;?></td>
-                    <td><?php $re=$item->paytype==1?"微信":"支付宝"; echo $re;?></td>
-                    <td><?php $re=$item->client==1?"电脑":"手机"; echo $re;?></td>
-                    <td><?php echo $item->orderno;?></td>
-                    <td><?php echo $item->addtime;?></td>
+                    <td><?php echo $item->pcurl;?></td>
+                    <td>
+                        <a href="javascript:;" onclick="datadel(<?php echo $item->id;?>)" class="btn btn-danger radius"><i class="Hui-iconfont"></i> 删除</a>
+                    </td>
+
                 </tr>
             <?php }?>
 
@@ -55,14 +55,34 @@
         ]
     });
 
-    function datadel(){
+    function add() {
+        $.ajax({
+            type: 'POST',
+            url: '<?php echo base_url();?>manager/addpcurl',
+            data:{"pcurl":$("#pcurl").val()},
+            dataType: 'json',
+            success: function(data){
+                if(data.result>0)
+                {
+                    layer.msg('已添加!',{icon:1,time:1000});
+                }
+                location.reload();
+            },
+            error:function(data) {
+
+            },
+        });
+    }
+    
+    function datadel(obj){
         layer.confirm('确认要删除吗？',function(index){
             $.ajax({
                 type: 'POST',
-                url: '<?php echo base_url();?>manager/deleteuserlist',
+                url: '<?php echo base_url();?>manager/delpcurl',
+                data:{"id":obj},
                 dataType: 'json',
                 success: function(data){
-                    if(data.code>0)
+                    if(data.result>0)
                     {
                         layer.msg('已删除!',{icon:1,time:1000});
                     }

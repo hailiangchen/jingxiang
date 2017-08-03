@@ -1,49 +1,55 @@
 <title></title>
 </head>
 <body>
+
 <div class="page-container">
     <form  class="form form-horizontal" id="peizhiForm">
         <div class="col-xs-8 col-sm-8">
             <div class="row cl">
-                <label class="form-label col-xs-4 col-sm-2">本站网址</label>
+                <label class="form-label col-xs-4 col-sm-2">链接一</label>
                 <div class="formControls col-xs-8 col-sm-9">
-                    <input type="text" class="input-text" value="<?php echo $result[0]->weburl;?>" placeholder="" id="" name="weburl">
+                    <input type="text" class="input-text" value="<?php echo $result->mburl1;?>" placeholder="" id="" name="mburl1">
                 </div>
             </div>
 
             <div class="row cl">
-                <label class="form-label col-xs-4 col-sm-2">联系QQ</label>
+                <label class="form-label col-xs-4 col-sm-2">链接二</label>
                 <div class="formControls col-xs-8 col-sm-9">
-                    <input type="text" class="input-text" value="<?php echo $result[0]->qq1;?>" placeholder="" id="" name="qq1">
+                    <input type="text" class="input-text" value="<?php echo $result->mburl2;?>" placeholder="" id="" name="mburl2">
                 </div>
             </div>
 
             <div class="row cl">
-                <label class="form-label col-xs-4 col-sm-2">线路一</label>
+                <label class="form-label col-xs-4 col-sm-2">链接三</label>
                 <div class="formControls col-xs-8 col-sm-9">
-                    <input type="text" class="input-text" value="<?php echo $result[0]->loginurl1;?>" placeholder="" id="" name="login1">
+                    <input type="text" class="input-text" value="<?php echo $result->mburl3;?>" placeholder="" id="" name="mburl3">
                 </div>
             </div>
             <div class="row cl">
-                <label class="form-label col-xs-4 col-sm-2">线路二</label>
+                <label class="form-label col-xs-4 col-sm-2">链接四</label>
                 <div class="formControls col-xs-8 col-sm-9">
-                    <input type="text" class="input-text" value="<?php echo $result[0]->loginurl2;?>" placeholder="" id="" name="login2">
+                    <input type="text" class="input-text" value="<?php echo $result->mburl4;?>" placeholder="" id="" name="mburl4">
                 </div>
             </div>
             <div class="row cl">
-                <label class="form-label col-xs-4 col-sm-2">线路三</label>
+                <label class="form-label col-xs-4 col-sm-2">免费开户</label>
                 <div class="formControls col-xs-8 col-sm-9">
-                    <input type="text" class="input-text" value="<?php echo $result[0]->loginurl3;?>" placeholder="" id="" name="login3">
+                    <input type="text" class="input-text" value="<?php echo $result->openaccount;?>" placeholder="" id="" name="openaccount">
                 </div>
             </div>
             <div class="row cl">
-                <label class="form-label col-xs-4 col-sm-2">线路四</label>
+                <label class="form-label col-xs-4 col-sm-2">客服链接</label>
                 <div class="formControls col-xs-8 col-sm-9">
-                    <input type="text" class="input-text" value="<?php echo $result[0]->register3;?>" placeholder="" id="" name="register1">
+                    <input type="text" class="input-text" value="<?php echo $result->service;?>" placeholder="" id="" name="service">
                 </div>
             </div>
 
-
+            <div class="row cl">
+                <label class="form-label col-xs-4 col-sm-2">充值链接</label>
+                <div class="formControls col-xs-8 col-sm-9">
+                    <input type="text" class="input-text" value="<?php echo $result->topup;?>" placeholder="" id="" name="topup">
+                </div>
+            </div>
 
 
         </div>
@@ -71,13 +77,13 @@
 <script>
     function btn_save() {
         $.ajax({
-            url:"<?php echo base_url();?>manager/savepeizhi",
+            url:"<?php echo base_url();?>manager/mbsave",
             type:"POST",
             dataType:'json',
             data:$("#peizhiForm").serialize(),
             success:function (data) {
 
-                if(data.code>0)
+                if(data.result>0)
                 {
                     layer.msg('保存成功!',{icon:1,time:1000});
                 }
