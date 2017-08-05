@@ -277,6 +277,32 @@ class Manager extends CI_Controller
         $this->load->view("manager_peizhi",$data);
     }
 
+    public  function configview()
+    {
+        $this->load->model("modelconfig");
+        $data['result']=$this->modelconfig->Get(array('id'=>1));
+
+        //var_dump($data);
+
+        $this->load->view('header');
+        $this->load->view("manager_config",$data);
+    }
+
+    public  function saveconfig()
+    {
+        $data["id"]=1;
+        $data["title"]=$this->input->post('title');
+        $data["keyword"]=$this->input->post('keyword');
+        $data["descript"]=$this->input->post('descript');
+        $data["website"]=$this->input->post('website');
+        $data["webname"]=$this->input->post('webname');
+        $data["kefu"]=$this->input->post('kefu');
+
+        $this->load->model("modelconfig");
+        $re=$this->modelconfig->Update($data);
+        echo json_encode(array("result"=>$re));
+    }
+
     protected function randnum()
     {
         $numbers = range (1,15);

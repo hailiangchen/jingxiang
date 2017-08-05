@@ -1,0 +1,40 @@
+*{margin:0;padding:0;}
+.w1000{ width:1000px; margin:0 auto;}
+.clear{ clear:both;}
+a{ text-decoration:none;color:#fff; font-size:12px;}
+body{font-size:12px; font-family: "微软雅黑"; background: #2e2119 url(./images/bg.jpg) top center no-repeat}
+
+.header{ height: 104px; background:url(./images/headerbg.jpg) #533a29;}
+.header .logo{width:325px; height: 104px; display: block; float: left; margin-top:-3px;}
+.header .logor{background: url(./images/logor.png) no-repeat; width:230px; height: 104px; float: left; }
+.header .headright{ float: right;width:380px; height:104px;background: url(./images/headright.png) no-repeat;}
+
+
+.xlmain{ height:724px; width: 1000px;background:url(./images/mainbg.png) no-repeat;padding-top:15px; position:relative; margin-top: 20px;}
+
+.xlmain .mainleft{float: left;margin-left:50px; width: 650px; height: 588px;}
+.xlmain .mainleft p{height:60px; line-height:60px; color: #d2d2d2;font-size: 13px;font-family: "宋体"; margin-left: 65px}
+.xlmain .mainleft p b{ display:block; float:left; width:65px; color:#fff100; font-size:13px;font-family: "宋体"; font-weight:normal;}
+
+.formclass{ line-height:45px;}
+.list{ height:45px; line-height:45px;}
+.input1{ border:1px solid #946e4a; width:97px; height:26px; text-align:center; line-height:26px; background:#3e2311; color:#fff;font-size:12px; float:left}
+.input2{ border:1px solid #946e4a; width:290px; height:26px; padding-left:20px; line-height:26px; background:#3e2311; color:#fff;font-size:12px;float:left}
+.img{ float:left; margin:0; }
+.img img{display:block}
+.open{ background:#dcb556; text-align: center;font-size:12px; width:89px; height:28px; border:none; cursor:pointer; line-height:28px;float:left; margin-left:5px; color:#000; border-radius:2px;}
+.open:hover{background:url(./images/openhover.png) no-repeat; color:#422f00}
+.open_co{ background:#8c6848; text-align: center;font-size:12px; width:89px; height:28px; border:none; cursor:pointer; line-height:28px;float:left; margin-left:5px; color:#fff; border-radius:2px;}
+.open_co:hover{background:#444; color:#eee}
+.sub{ background:url(./images/sub.png) no-repeat; width:261px; height:36px; border:none;margin-top:5px; cursor:pointer; margin-left:200px}
+.sub:hover{ background:url(./images/subon.png) no-repeat}
+
+.xlmain .mainright{width: 255px; padding-right:30px; height: 588px;float: right;}
+.xlmain .mainright .info{line-height: 20px;color: #b0865e; padding-top: 40px;}
+.xlmain .mainright .info a{color: #b0865e; font-size: 13px;}
+.xlmain .mainright .info span{ color:#fff}
+.xlmain .mainright .info h2{ color:#ffd74a; font-size:17px; font-family:"微软雅黑"; margin-top:10px; line-height:30px; height: 30px;}
+.xlmain .mainright .info .lianxi{ display:block; margin-top:10px; width:154px; height:29px; background:#e60012; border-radius:2px; text-align:center; line-height:29px; color:#fff; font-size:13px;font-family:"微软雅黑";}
+.xlmain .mainright .info .exclusive{display: block; margin-top: 20px; margin-bottom: 5px;}
+
+.footer{height:50px; line-height:50px; text-align:center; color:#fed667}

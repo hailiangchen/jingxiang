@@ -74,6 +74,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <ul>
                     <li><a _href="<?php echo base_url();?>index.php/manager/getpcurl" data-title="电脑网站" href="javascript:void(0)">电脑网站</a></li>
                     <li><a _href="<?php echo base_url();?>index.php/manager/mbview" data-title="手机网站" href="javascript:void(0)">手机网站</a></li>
+                    <li><a _href="<?php echo base_url();?>index.php/manager/configview" data-title="网站配置" href="javascript:void(0)">网站配置</a></li>
                     <li><a _href="<?php echo base_url();?>index.php/manager/admin" data-title="管理员" href="javascript:void(0)">管理员</a></li>
                 </ul>
             </dd>
