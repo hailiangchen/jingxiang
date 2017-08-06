@@ -10,7 +10,7 @@
 
         if(oWidth <= 1024){
 
-            window.location.href = "../mb/index.html"
+            window.location.href = "../mb/index"
 
         }
 
@@ -20,7 +20,7 @@
 
             if(oWidth <= 1024){
 
-                window.location.href = "../mb/index.html"
+                window.location.href = "../mb/index"
 
             }
 
@@ -32,7 +32,7 @@
 
             if(oWidth <= 1024){
 
-                window.location.href = "../mb/index.html"
+                window.location.href = "../mb/index"
 
             }
 
@@ -71,13 +71,13 @@
 <div class="header">
     <div class="w1000">
 
-        <a href="http://15595.com/#" class="logo">
-            <object type="application/x-shockwave-flash" id="logo-flash" onmousedown="menu_url(1);" data="./style/logo.swf" width="300" height="107">
+        <a href="/" class="logo">
+            <object type="application/x-shockwave-flash" id="logo-flash" onmousedown="menu_url(1);" data="./style/ilog.png" width="492" height="90">
                 <param name="wmode" value="transparent">
                 <param name="quality" value="high">
             </object>
         </a>
-        <div class="logor"></div>
+
         <div class="headright">
         </div>
     </div>
@@ -133,14 +133,14 @@
     </div>
     <div class="mainright">
         <div class="info">
-            <p>检测后还不能登录,请按以下操作:<br>打开IE浏览器，选择：工具-&gt; Internet选项-&gt; 在选择 (删除历史浏览记录)-&gt; 删除-&gt; 重启IE<br><br>如果打开本公司出现跳转到其他网站的情况，请点击查看：<a href="http://15595.com/fjc/" target="_blank" class="STYLE3">在线教程</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://15595.com/fjc.zip" class="STYLE4">反劫持软件及教程</a><br>
+            <p>检测后还不能登录,请按以下操作:<br>打开IE浏览器，选择：工具-&gt; Internet选项-&gt; 在选择 (删除历史浏览记录)-&gt; 删除-&gt; 重启IE<br><br>如果打开本公司出现跳转到其他网站的情况，请点击查看：<a href="/" target="_blank" class="STYLE3">在线教程</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://15595.com/fjc.zip" class="STYLE4">反劫持软件及教程</a><br>
                 <br>
 
                 如果您是出现视频卡，请在您的游戏页面右下角点击"摄像头"的小图标，选择一个新线路使用试试：<br>
                 <img src="./style/images/img.jpg" height="67" width="199" style="margin-top: 8px;"></p>
-            <a target="_blank" href="http://15595.com/3" class="lianxi">7X24小时在线客服</a>
+            <a target="_blank" href="<?php echo $web->kefu;?>" class="lianxi">7X24小时在线客服</a>
             <p style="line-height: 24px;margin-top: 8px;">如果以上方式仍未解决您的问题，请联系官方线路人员远程协助您。</p>
-            <a href="http://15595.com/#"><img src="./style/images/exclusive.png" class="exclusive"></a>
+            <a href="/"><img src="./style/images/exclusive.png" class="exclusive"></a>
         </div>
     </div>
 </div>
@@ -152,8 +152,8 @@
 
 
 <div id="floatService2" style="margin-top: 30px; width: 124px; text-align: center; position: absolute; z-index: 1000; top: 150px; right: 5px;">
-    <a href="https://f18.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=797423&amp;configID=63625&amp;jid=4873828728&amp;s=1" target="_blank"><img src="./style/images/kefu-r_01.png"></a>
-    <a href="http://15595.com/#" target="_blank"><img src="./style/images/kefu-r_02.png"></a>
+    <a href="<?php echo $web->kefu;?>" target="_blank"><img src="./style/images/kefu-r_01.png"></a>
+    <a href="<?php echo $web->kefu;?>" target="_blank"><img src="./style/images/kefu-r_02.png"></a>
     <a href="javascript:void(0)" id="closefloatDownLoad2"><img src="./style/images/kefu-r_03.png"></a>
 </div>
 <script type="text/javascript">
