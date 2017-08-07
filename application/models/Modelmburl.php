@@ -62,7 +62,7 @@ class Modelmburl extends CI_Model
 
         // qualification (make sure that
         // we're not allowing the site to update data that it shouldn't)
-        $qualificationArray = array('id','mburl1','mburl2','mburl3','mburl4','openaccount','service','topup');
+        $qualificationArray = array('id','mburl1','mburl2','mburl3','mburl4','mburl5','mburl6','openaccount','service','topup');
         foreach ($qualificationArray as $qualifier) {
             if (isset($options[$qualifier]))
                 $this->db->set($qualifier, $options[$qualifier]);

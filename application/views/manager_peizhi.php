@@ -32,6 +32,18 @@
                 </div>
             </div>
             <div class="row cl">
+                <label class="form-label col-xs-4 col-sm-2">链接五</label>
+                <div class="formControls col-xs-8 col-sm-9">
+                    <input type="text" class="input-text" value="<?php echo $result->mburl5;?>" placeholder="" id="" name="mburl5">
+                </div>
+            </div>
+            <div class="row cl">
+                <label class="form-label col-xs-4 col-sm-2">链接六</label>
+                <div class="formControls col-xs-8 col-sm-9">
+                    <input type="text" class="input-text" value="<?php echo $result->mburl6;?>" placeholder="" id="" name="mburl6">
+                </div>
+            </div>
+            <div class="row cl">
                 <label class="form-label col-xs-4 col-sm-2">免费开户</label>
                 <div class="formControls col-xs-8 col-sm-9">
                     <input type="text" class="input-text" value="<?php echo $result->openaccount;?>" placeholder="" id="" name="openaccount">

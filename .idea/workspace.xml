@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bd395fd-b37c-441c-858e-56189cc745b8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/logo.swf" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/images/kefu-r_02.png" afterPath="$PROJECT_DIR$/style/images/kefu-r_02.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/kf4.png" afterPath="$PROJECT_DIR$/style/kf4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/logo.png" afterPath="$PROJECT_DIR$/style/logo.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/style/yinlogo11.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/yinlogo.png" afterPath="$PROJECT_DIR$/style/yinlogo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/home.php" afterPath="$PROJECT_DIR$/application/controllers/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/home_index.php" afterPath="$PROJECT_DIR$/application/views/home_index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/manager.php" afterPath="$PROJECT_DIR$/application/controllers/manager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/Modelmburl.php" afterPath="$PROJECT_DIR$/application/models/Modelmburl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/manager_peizhi.php" afterPath="$PROJECT_DIR$/application/views/manager_peizhi.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/mb_index.php" afterPath="$PROJECT_DIR$/application/views/mb_index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +36,8 @@
       <file leaf-file-name="Modelmburl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/Modelmburl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1045">
-              <caret line="55" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+            <state relative-caret-position="322">
+              <caret line="57" column="39" lean-forward="true" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -48,8 +46,8 @@
       <file leaf-file-name="manager.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/manager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5586">
-              <caret line="294" column="22" lean-forward="false" selection-start-line="294" selection-start-column="22" selection-end-line="294" selection-end-column="22" />
+            <state relative-caret-position="384">
+              <caret line="259" column="21" lean-forward="false" selection-start-line="259" selection-start-column="21" selection-end-line="259" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -58,8 +56,8 @@
       <file leaf-file-name="manager_peizhi.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/manager_peizhi.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1520">
-              <caret line="80" column="24" lean-forward="false" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
+            <state relative-caret-position="436">
+              <caret line="44" column="18" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -98,8 +96,8 @@
       <file leaf-file-name="mb_index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/mb_index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="57" column="83" lean-forward="false" selection-start-line="57" selection-start-column="83" selection-end-line="57" selection-end-column="83" />
+            <state relative-caret-position="304">
+              <caret line="81" column="8" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -108,10 +106,10 @@
       <file leaf-file-name="home_index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/home_index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
+            <state relative-caret-position="2565">
               <caret line="135" column="146" lean-forward="false" selection-start-line="135" selection-start-column="146" selection-end-line="135" selection-end-column="146" />
               <folding>
-                <marker date="1501994088279" expanded="true" signature="4374:4386" ph="..." />
+                <marker date="1501998058669" expanded="true" signature="4359:4371" ph="..." />
               </folding>
             </state>
           </provider>
@@ -209,16 +207,16 @@
         <option value="$PROJECT_DIR$/application/views/welcome.php" />
         <option value="$PROJECT_DIR$/application/models/Modelpcurl.php" />
         <option value="$PROJECT_DIR$/application/views/manager_orderlist.php" />
-        <option value="$PROJECT_DIR$/application/models/Modelmburl.php" />
-        <option value="$PROJECT_DIR$/application/views/manager_peizhi.php" />
         <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/application/views/manager_config.php" />
         <option value="$PROJECT_DIR$/application/views/manager_main.php" />
         <option value="$PROJECT_DIR$/application/models/Modelconfig.php" />
-        <option value="$PROJECT_DIR$/application/controllers/manager.php" />
         <option value="$PROJECT_DIR$/application/controllers/mb.php" />
         <option value="$PROJECT_DIR$/application/controllers/home.php" />
         <option value="$PROJECT_DIR$/application/views/home_index.php" />
+        <option value="$PROJECT_DIR$/application/models/Modelmburl.php" />
+        <option value="$PROJECT_DIR$/application/controllers/manager.php" />
+        <option value="$PROJECT_DIR$/application/views/manager_peizhi.php" />
         <option value="$PROJECT_DIR$/application/views/mb_index.php" />
       </list>
     </option>
@@ -231,8 +229,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="237" />
-    <option name="y" value="86" />
+    <option name="x" value="165" />
+    <option name="y" value="22" />
     <option name="width" value="1696" />
     <option name="height" value="1026" />
   </component>
@@ -251,6 +249,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -348,7 +347,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -455,17 +453,18 @@
       <workItem from="1501859776591" duration="596000" />
       <workItem from="1501888419890" duration="8504000" />
       <workItem from="1501993313002" duration="2055000" />
+      <workItem from="1502099121425" duration="1391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102628000" />
+    <option name="totallyTimeSpent" value="104019000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="237" y="86" width="1696" height="1026" extended-state="0" />
-    <editor active="false" />
+    <frame x="165" y="22" width="1696" height="1026" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17114915" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17298289" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -651,7 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1197">
           <caret line="278" column="9" lean-forward="false" selection-start-line="278" selection-start-column="9" selection-end-line="278" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,26 +699,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/manager_peizhi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="80" column="24" lean-forward="false" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/manager_main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1444">
           <caret line="76" column="136" lean-forward="false" selection-start-line="76" selection-start-column="136" selection-end-line="76" selection-end-column="136" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/Modelmburl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="55" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -737,14 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="817">
           <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/manager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5586">
-          <caret line="294" column="22" lean-forward="false" selection-start-line="294" selection-start-column="22" selection-end-line="294" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -767,18 +741,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/home_index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
+        <state relative-caret-position="2565">
           <caret line="135" column="146" lean-forward="false" selection-start-line="135" selection-start-column="146" selection-end-line="135" selection-end-column="146" />
           <folding>
-            <marker date="1501994088279" expanded="true" signature="4374:4386" ph="..." />
+            <marker date="1501998058669" expanded="true" signature="4359:4371" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Modelmburl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="57" column="39" lean-forward="true" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="259" column="21" lean-forward="false" selection-start-line="259" selection-start-column="21" selection-end-line="259" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/manager_peizhi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="44" column="18" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/mb_index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="57" column="83" lean-forward="false" selection-start-line="57" selection-start-column="83" selection-end-line="57" selection-end-column="83" />
+        <state relative-caret-position="304">
+          <caret line="81" column="8" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
           <folding />
         </state>
       </provider>

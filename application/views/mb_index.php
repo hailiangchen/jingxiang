@@ -40,27 +40,36 @@
     <div class="lisxul-bx1">
         <ul class="lisxul-one" id="cesu">
             <li class="lm1"><a href="<?php echo $result->mburl1;?>" class="">
-                    <img src="<?php echo base_url();?>style/yinlogo.png" width="200" alt="">
+                    <img src="<?php echo base_url();?>style/yinlogo.png" width="82" alt="">
                     <p class="lbmtbx">贵宾一站</p>
 
-                </a><span><em>526ms</em></span></li>
+                </a><span><em></em></span></li>
             <li class="lm2"><a href="<?php echo $result->mburl2;?>" class="">
-                    <img src="<?php echo base_url();?>style/yinlogo.png" width="200" alt="">
+                    <img src="<?php echo base_url();?>style/yinlogo.png" width="82" alt="">
                     <p class="lbmtbx">贵宾二站</p>
 
-                </a><span><em>516ms</em></span></li>
+                </a><span><em></em></span></li>
             <li class="lm3"><a href="<?php echo $result->mburl3;?>" class="">
-                    <img src="<?php echo base_url();?>style/yinlogo.png" width="200" alt="">
+                    <img src="<?php echo base_url();?>style/yinlogo.png" width="82" alt="">
                     <p class="lbmtbx">贵宾三站</p>
 
-                </a><span><em>543ms</em></span></li>
+                </a><span><em></em></span></li>
             <li class="lm4"><a href="<?php echo $result->mburl4;?>" class="">
-                    <img src="<?php echo base_url();?>style/yinlogo.png" width="200" alt="">
+                    <img src="<?php echo base_url();?>style/yinlogo.png" width="82" alt="">
                     <p class="lbmtbx">贵宾四站</p>
 
-                </a><span><em>532ms</em></span></li>
+                </a><span><em></em></span></li>
 
-
+            <li class="lm5"><a href="<?php echo $result->mburl5?>" target="_blank">
+                    <img src="<?php echo base_url();?>style/yinlogo.png" width="82" alt="">
+                    <p class="lbmtbx">贵宾五站</p></a>
+                <span><em></em></span>
+            </li>
+            <li class="lm6">
+                <a href="<?php echo $result->mburl6;?>" target="_blank">
+                    <img src="<?php echo base_url();?>style/yinlogo.png" width="82"  alt="">
+                    <p class="lbmtbx">贵宾六站</p></a>
+                </a><span><em></em></span></li>
         </ul>
 
 
@@ -70,8 +79,7 @@
         <li><a href="<?php echo $result->openaccount;?>" target="_blank"><img src="<?php echo base_url();?>style/kf1.png" alt=""></a></li>
         <li><a href="<?php echo $result->service;?>" target="_blank">
                 <img src="<?php echo base_url();?>style/kf2.png" alt=""></a></li>
-        <li><a href="/mb/index" target="_blank"><img src="<?php echo base_url();?>style/kf3.png" alt=""></a></li>
-        <li><a href="<?php echo $result->topup;?>" target="_blank"><img src="<?php echo base_url();?>style/kf4.png" alt=""></a></li>
+        
 
     </ul>
     <div class="cl h12"></div>

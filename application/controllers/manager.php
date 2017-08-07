@@ -256,6 +256,8 @@ class Manager extends CI_Controller
         $data["mburl2"]=$this->input->post('mburl2');
         $data["mburl3"]=$this->input->post('mburl3');
         $data["mburl4"]=$this->input->post('mburl4');
+        $data["mburl5"]=$this->input->post('mburl5');
+        $data["mburl6"]=$this->input->post('mburl6');
         $data["openaccount"]=$this->input->post('openaccount');
         $data["service"]=$this->input->post('service');
         $data["topup"]=$this->input->post('topup');
